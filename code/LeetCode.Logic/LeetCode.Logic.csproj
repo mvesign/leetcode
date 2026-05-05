@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\LeetCode.Core\LeetCode.Core.csproj" />
+  </ItemGroup>
+</Project>

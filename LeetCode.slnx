@@ -1,8 +1,18 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/LeetCode.Solutions/LeetCode.Solutions.csproj" />
+  <Folder Name="/_Solution/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/_Solution/code/">
+    <File Path="code/Directory.Build.props" />
+  </Folder>
+  <Folder Name="/_Solution/tests/">
+    <File Path="tests/Directory.Build.props" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/LeetCode.Tests/LeetCode.Tests.csproj" />
+    <Project Path="tests/LeetCode.Logic.Tests/LeetCode.Logic.Tests.csproj" />
   </Folder>
+  <Project Path="code/LeetCode.Core/LeetCode.Core.csproj" />
+  <Project Path="code/LeetCode.Logic/LeetCode.Logic.csproj" />
 </Solution>
